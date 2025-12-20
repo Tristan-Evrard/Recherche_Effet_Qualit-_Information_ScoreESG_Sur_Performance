@@ -4,7 +4,7 @@ import numpy as np
 import os
 
 #Importation des données 
-data = pd.read_csv(r"C:\Users\trist\Desktop\Master MBFA GRFV\Méthodologie pour la recherche\Data_modeleconom.csv",
+data = pd.read_csv(r"C:\Users\trist\Desktop\Master MBFA GRFV\Méthodologie pour la recherche\Modele_econometrique_CAC40\Data_modeleconom.csv",
                   encoding="latin-1",
                   index_col=0)
 
@@ -149,7 +149,7 @@ import numpy as np
 ###############################################################################
 # Préparation des données
 ###############################################################################
-data_H1 = data[['ROA - %','Score ESG - %','ESG x Qualité Information','Taille', 'Dette nette en Mds euros', 'Secteur Secondaire', 'Secteur Tertiaire']]
+data_H1 = data[['ROA - %','Score ESG - %','Disclosure Score - Qualité Information - %','Taille', 'Dette nette en Mds euros', 'Secteur Secondaire', 'Secteur Tertiaire']]
 data_H1_abcd = data[['Disclosure Score - Qualité Information - %', 'Envrionnemental - % ','Social - %','Gouvernance - %','Taille','Dette nette en Mds euros', 'Secteur Secondaire', 'Secteur Tertiaire']]
 
 ###############################################################################
