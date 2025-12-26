@@ -4,12 +4,12 @@ import numpy as np
 import os
 
 #Importation des données 
-data = pd.read_csv(r"C:\Users\trist\Desktop\Master MBFA GRFV\Méthodologie pour la recherche\Modele_econometrique_CAC40\Data_modeleconom.csv",
+data = pd.read_csv(r"[Votre chemin pour accèder aux données du fichier Donnee_Recherche]",
                   encoding="latin-1",
                   index_col=0)
 
 # Définir le dossier de destination
-dossier_export = r"C:\Users\trist\Desktop\Master MBFA GRFV\Méthodologie pour la recherche\Data"
+dossier_export = r"[Votre chemin]"
 os.makedirs(dossier_export, exist_ok=True)
 
 # Fonction pour extraire les résultats d'une régression
