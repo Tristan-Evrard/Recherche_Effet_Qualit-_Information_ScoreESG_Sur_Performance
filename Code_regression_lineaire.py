@@ -4,7 +4,7 @@ import numpy as np
 import os
 
 #Importation des données 
-data = pd.read_csv(r"[Votre chemin pour accèder aux données du fichier Donnee_Recherche]",
+data = pd.read_csv(r"[Votre chemin pour accèder aux données du fichier Data_modeleconom.csv]",
                   encoding="latin-1",
                   index_col=0)
 
